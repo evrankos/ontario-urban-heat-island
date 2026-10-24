@@ -1,0 +1,17 @@
+# Ignore large raster datasets (exceeding GitHub's 100MB file size limit)
+Land_cover/*.tif
+Land_cover/*.ovr
+*.tif
+*.nc
+*.gdb/
+
+# Ignore R session and history files
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata/
+
+# Temporary / scratch files
+*.tmp
+test*
+TryKnit*
